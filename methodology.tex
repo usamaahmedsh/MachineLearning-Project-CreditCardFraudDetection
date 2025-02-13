@@ -1,0 +1,103 @@
+\documentclass{article}
+
+% Colors
+\usepackage[dvipsnames]{xcolor}
+
+% ===============
+% Hyperlink setup
+% ===============
+\usepackage{xurl}
+\usepackage[
+    colorlinks,
+    breaklinks=true,
+    urlcolor=NavyBlue,
+    citecolor=NavyBlue,
+    linkcolor=NavyBlue,
+    linktocpage,
+]{hyperref}
+\def\sectionautorefname{\S}
+\def\subsectionautorefname{\S}
+
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{inconsolata}
+\usepackage{newpxtext}
+\usepackage{newpxmath}
+\usepackage{microtype}
+
+
+\input{bibliography_setup}
+
+\begin{document}
+
+\title{Detecting Financial Fraud: Leveraging Machine Learning for
+Enhanced Security and Loss Prevention}
+\author{Usama Ahmed}
+\date{\today}
+\maketitle
+
+\section{Description of Dataset}
+The dataset contains credit card transactions made by European cardholders in September 2013. 
+It consists of numerical input variables resulting from a PCA transformation. The dataset \cite{dataset} 
+includes features such as Time, V1-V28 (principal components), Amount, and Class (0 for non-fraudulent, 1 for fraudulent).
+An example training data point from the dataset is shown below:
+
+\begin{verbatim}
+Time: 0
+V1: -1.359807
+V2: -0.072781
+...
+Amount: 149.62
+Class: 0 (non-fraudulent)
+\end{verbatim}
+
+
+\section{Description of Algorithms}
+\subsection{Support Vector Machine (SVM)}
+The SVM algorithm is a supervised learning algorithm that is effective for classification tasks. It works by finding the optimal hyperplane that separates different classes in the feature space \cite{SVM}.
+
+\begin{algorithm}
+    \caption{Support Vector Machine (SVM)}
+    \begin{algorithmic}[1]
+        \Procedure{SVM}{$X_{\text{train}}, y_{\text{train}}, C, \text{kernel}$}
+            \State Initialize the SVM model with parameters $C$ and kernel type
+            \State Train the SVM model using $X_{\text{train}}$ and $y_{\text{train}}$
+            \State \textbf{return} SVM model
+        \EndProcedure
+    \end{algorithmic}
+\end{algorithm}
+
+\subsection{Isolation Forest}
+The Isolation Forest algorithm is an unsupervised learning algorithm used for anomaly detection. It works by isolating anomalies in the dataset using binary trees \cite{IF}.
+
+\begin{algorithm}
+    \caption{Isolation Forest}
+    \begin{algorithmic}[1]
+        \Procedure{IsolationForest}{$X_{\text{train}}, n_{\text{estimators}}, \text{max\_samples}$}
+            \State Initialize an empty list to store individual isolation trees
+            \For{$i$ from 1 to $n_{\text{estimators}}$}
+                \State Draw a random sample of size $\text{max\_samples}$ from $X_{\text{train}}$
+                \State Train an isolation tree using the random sample
+                \State Add the trained tree to the list
+            \EndFor
+            \State \textbf{return} list of isolation trees
+        \EndProcedure
+    \end{algorithmic}
+\end{algorithm}
+
+
+\section{Evaluation Procedure}
+The performance of the models will be evaluated using metrics such as precision, recall, F1-score, and accuracy. Cross-validation will be used to ensure robustness of the results.
+
+\section{Hyperparameter Tuning}
+Grid search or random search will be employed to tune the hyperparameters of the SVM and Isolation Forest algorithms, such as the regularization parameter (C) for SVM and the number of estimators for Isolation Forest.
+
+\printbibliography
+
+\end{document}

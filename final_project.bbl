@@ -1,0 +1,244 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{fraud1}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=bee7a582ee6387dcc5ff2b62ffec109f}{%
+           family={Stone-Gross},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Brett},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4f832c20f49afe0f89cd5363ed066a35}{%
+           family={Stevens},
+           familyi={S\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=83978744f4bd511a12c8316b278936c0}{%
+           family={Zarras},
+           familyi={Z\bibinitperiod},
+           given={Apostolis},
+           giveni={A\bibinitperiod}}}%
+        {{hash=350bce5f13a95541bf305183b7a5ead0}{%
+           family={Kemmerer},
+           familyi={K\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=40b8a8278be7b679f17d31d27376b12d}{%
+           family={Kruegel},
+           familyi={K\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4a1c8af0d630f0ef331649aa8bbb3fbd}{%
+           family={Vigna},
+           familyi={V\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d030e89db2625e7d85f30f43e48e12e5}
+      \strng{fullhash}{3e05cf5738689309a757a28df23e2b91}
+      \strng{bibnamehash}{3e05cf5738689309a757a28df23e2b91}
+      \strng{authorbibnamehash}{3e05cf5738689309a757a28df23e2b91}
+      \strng{authornamehash}{d030e89db2625e7d85f30f43e48e12e5}
+      \strng{authorfullhash}{3e05cf5738689309a757a28df23e2b91}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2011 ACM SIGCOMM conference on Internet measurement conference}
+      \field{title}{Understanding fraudulent activities in online ad exchanges}
+      \field{year}{2011}
+      \field{pages}{279\bibrangedash 294}
+      \range{pages}{16}
+    \endentry
+    \entry{dataset}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=80d14f744137029de7a689dbedfcb45b}{%
+           family={Preda},
+           familyi={P\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{80d14f744137029de7a689dbedfcb45b}
+      \strng{fullhash}{80d14f744137029de7a689dbedfcb45b}
+      \strng{bibnamehash}{80d14f744137029de7a689dbedfcb45b}
+      \strng{authorbibnamehash}{80d14f744137029de7a689dbedfcb45b}
+      \strng{authornamehash}{80d14f744137029de7a689dbedfcb45b}
+      \strng{authorfullhash}{80d14f744137029de7a689dbedfcb45b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Kaggle}
+      \field{title}{Credit Card Fraud Detection Predictive Models}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.kaggle.com/mlg-ulb/creditcardfraud
+      \endverb
+      \verb{url}
+      \verb https://www.kaggle.com/mlg-ulb/creditcardfraud
+      \endverb
+    \endentry
+    \entry{7735}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9c1df4e2237af762172f50e052a780b6}{%
+           family={Bernard},
+           familyi={B\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c1df4e2237af762172f50e052a780b6}
+      \strng{fullhash}{9c1df4e2237af762172f50e052a780b6}
+      \strng{bibnamehash}{9c1df4e2237af762172f50e052a780b6}
+      \strng{authorbibnamehash}{9c1df4e2237af762172f50e052a780b6}
+      \strng{authornamehash}{9c1df4e2237af762172f50e052a780b6}
+      \strng{authorfullhash}{9c1df4e2237af762172f50e052a780b6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Control Systems Magazine}
+      \field{number}{5}
+      \field{title}{Use of a rule-based system for process control}
+      \field{volume}{8}
+      \field{year}{1988}
+      \field{pages}{3\bibrangedash 13}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/37.7735
+      \endverb
+      \keyw{Knowledge based systems;Process control;Inductors;Automatic control;Digital control;Fuzzy logic;Steady-state;Knowledge engineering;Power engineering and energy;Testing}
+    \endentry
+    \entry{c2}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e56fa710f7fca60cc66c629005e9255b}{%
+           family={Goutte},
+           familyi={G\bibinitperiod},
+           given={Cyril},
+           giveni={C\bibinitperiod}}}%
+        {{hash=410910ecb38a1335705bfa19ee963469}{%
+           family={Gaussier},
+           familyi={G\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c06d830d41c59e55c1a8505cf136508a}
+      \strng{fullhash}{c06d830d41c59e55c1a8505cf136508a}
+      \strng{bibnamehash}{c06d830d41c59e55c1a8505cf136508a}
+      \strng{authorbibnamehash}{c06d830d41c59e55c1a8505cf136508a}
+      \strng{authornamehash}{c06d830d41c59e55c1a8505cf136508a}
+      \strng{authorfullhash}{c06d830d41c59e55c1a8505cf136508a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{European conference on information retrieval}
+      \field{title}{A probabilistic interpretation of precision, recall and F-score, with implication for evaluation}
+      \field{year}{2005}
+      \field{pages}{345\bibrangedash 359}
+      \range{pages}{15}
+    \endentry
+    \entry{SVMdef}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9a6c719f5c6aa7c5fe1edc7d62778933}{%
+           family={Alokesh},
+           familyi={A\bibinitperiod},
+           given={985},
+           giveni={9\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a6c719f5c6aa7c5fe1edc7d62778933}
+      \strng{fullhash}{9a6c719f5c6aa7c5fe1edc7d62778933}
+      \strng{bibnamehash}{9a6c719f5c6aa7c5fe1edc7d62778933}
+      \strng{authorbibnamehash}{9a6c719f5c6aa7c5fe1edc7d62778933}
+      \strng{authornamehash}{9a6c719f5c6aa7c5fe1edc7d62778933}
+      \strng{authorfullhash}{9a6c719f5c6aa7c5fe1edc7d62778933}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Support Vector Machines (SVM)}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/introduction-to-support-vector-machines-svm/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/introduction-to-support-vector-machines-svm/
+      \endverb
+    \endentry
+    \entry{rnd1}{article}{}
+      \name{author}{5}{}{%
+        {{hash=a65eef8f43e09ac594e5c22e5bc79ebd}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=be6f1b6df7f1ddfafad18806238fa391}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7a56aedb5f6ad175a5340edc7bf6267e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b05219a6acab0132847dc1d15a7fc0ef}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=b9ea953e38962ea62150af4914b3a85b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2657c6540deac06f5d7d2648f920a7a8}
+      \strng{fullhash}{eb306d12b0637aca2dd6f53949d3f238}
+      \strng{bibnamehash}{eb306d12b0637aca2dd6f53949d3f238}
+      \strng{authorbibnamehash}{eb306d12b0637aca2dd6f53949d3f238}
+      \strng{authornamehash}{2657c6540deac06f5d7d2648f920a7a8}
+      \strng{authorfullhash}{eb306d12b0637aca2dd6f53949d3f238}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial Security}
+      \field{number}{2}
+      \field{title}{Addressing Class Imbalance in Fraud Detection: A Comparative Study}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{45\bibrangedash 62}
+      \range{pages}{18}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
